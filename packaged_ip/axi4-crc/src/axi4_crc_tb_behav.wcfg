@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axi4_crc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi4_crc_tb" />
+            <top_module name="pck_crc32_d32" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="49700000fs"></ZoomStartTime>
+      <ZoomEndTime time="263700001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="263"></NameColumnWidth>
+      <ValueColumnWidth column_width="493"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wvobject fp_name="/axi4_crc_tb/s_axi_aclk" type="logic">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_aclk" type="logic">
+      <obj_property name="ElementShortName">s_axi4_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_aresetn" type="logic">
+      <obj_property name="ElementShortName">s_axi4_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi4_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awlen" type="array">
+      <obj_property name="ElementShortName">s_axi4_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awsize" type="array">
+      <obj_property name="ElementShortName">s_axi4_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awburst" type="array">
+      <obj_property name="ElementShortName">s_axi4_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awlock" type="logic">
+      <obj_property name="ElementShortName">s_axi4_awlock</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awcache" type="array">
+      <obj_property name="ElementShortName">s_axi4_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awprot" type="array">
+      <obj_property name="ElementShortName">s_axi4_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi4_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi4_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi4_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi4_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_wlast" type="logic">
+      <obj_property name="ElementShortName">s_axi4_wlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi4_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi4_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi4_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi4_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi4_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi4_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arlen" type="array">
+      <obj_property name="ElementShortName">s_axi4_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arsize" type="array">
+      <obj_property name="ElementShortName">s_axi4_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arburst" type="array">
+      <obj_property name="ElementShortName">s_axi4_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arlock" type="logic">
+      <obj_property name="ElementShortName">s_axi4_arlock</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arcache" type="array">
+      <obj_property name="ElementShortName">s_axi4_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arprot" type="array">
+      <obj_property name="ElementShortName">s_axi4_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi4_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi4_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi4_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi4_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_rlast" type="logic">
+      <obj_property name="ElementShortName">s_axi4_rlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_rlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi4_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/s_axi4_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi4_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi4_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/axi4_crc_i/crc" type="array">
+      <obj_property name="ElementShortName">crc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi4_crc_tb/axi4_crc_i/crc_out" type="array">
+      <obj_property name="ElementShortName">crc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>
